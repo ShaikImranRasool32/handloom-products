@@ -96,9 +96,10 @@ const Products = () => {
           Go to Cart
         </button>
       </div>
-      <Footer/>
 
     </div>
+   <Footer/>
+
     </div>
   );
 };
