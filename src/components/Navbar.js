@@ -153,7 +153,7 @@ const Navbar = () => {
   const handleLogout = () => {
     setIsLoggedIn(false); // Reset login state on logout
     localStorage.removeItem("isLoggedIn"); // Remove from localStorage
-    navigate("/home"); // Redirect to home
+    navigate("/"); // Redirect to home
   };
 
   // Mock login function (replace with actual authentication logic)
